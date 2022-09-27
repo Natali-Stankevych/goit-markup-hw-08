@@ -1,0 +1,33 @@
+:root {
+    /* Fonts-Шрифти*/
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway";
+    /*text colors*/
+    --main-txt-cl: #212121;
+    --light-txt-cl: #fff;
+    --grey-txt-cl: #757575;
+    --accent-txt-cl: #2196F3;
+    --address-txt-cl: rgba(255, 255, 255, 0.6);
+    /*bagrounds colors*/
+    --main-bg-cl: #fff;
+    --accent-bg-cl: #2F303A;
+    --blue-bg-cl: #2196F3;
+    --lignt-bg-cl: #F5F4FA;
+    /*border*/
+    --border-color: #EEEEEE;
+    --border-cl-cl: #AFB1B8;
+    --border-hed-cl: #ECECEC;
+
+    /*icon*/
+    --icon-bg-cl: rgba(255, 255, 255, 0.1);
+
+    /*owerlay*/
+    --owerlay-bg-ci: rgba(33, 150, 243, 0.9);
+    --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+span {
+    color: #2196F3;
+
+}

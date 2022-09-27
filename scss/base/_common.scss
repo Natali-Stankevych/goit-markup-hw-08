@@ -1,0 +1,24 @@
+.page {
+    font-family: var(--main-font);
+    color: var(--main-txt-cl);
+    background-color: var(--main-bg-cl);
+    letter-spacing: 0.03em;
+    font-size: 14px;
+}
+
+.section {
+    padding: 94px 0;
+}
+
+.contanier {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+}
+

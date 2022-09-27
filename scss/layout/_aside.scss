@@ -1,0 +1,31 @@
+.section__aside {
+    padding-top: 0;
+}
+
+.list__aside {
+    display: flex;
+    gap: 30px;
+}
+
+.aside__thumd {
+    position: relative;
+}
+
+.aside__owerlay {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    top: 224px;
+
+}
+
+.aside__text {
+    font-size: 14px;
+    line-height: calc(16/14);
+    padding: 27px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--light-txt-cl);
+    background-color: rgba(47, 48, 58, 0.8);
+    ;
+}

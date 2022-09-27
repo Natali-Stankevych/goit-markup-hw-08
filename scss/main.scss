@@ -1,0 +1,28 @@
+//  utils
+@import "./utils/normalize";
+@import "./utils/variables";
+@import "./utils/visualiti-hidden";
+
+
+/* base*/
+@import "./base/reset";
+@import "./base/common";
+
+/* components*/
+
+@import "./components/modal";
+@import "./components/btn";
+@import "./components/socials";
+
+/*loyaut*/
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/aside";
+@import "./layout/team";
+@import "./layout/customer";
+@import "./layout/footer";
+@import "./layout/portfolio";
+
+
+

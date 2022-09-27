@@ -1,0 +1,147 @@
+.txt-btn {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60/44);
+    width: 696px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--light-txt-cl);
+}
+
+.btn {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: calc(30/16);
+    min-height: 50px;
+    padding: 8px 30px;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 0.06em;
+    color: var(--light-txt-cl);
+    background-color: var(--blue-bg-cl);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+
+/*footer*/
+
+
+.btn-modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.svg-btn {
+    fill: currentColor;
+}
+
+
+/* modal*/
+
+.modal-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    color: 000;
+    background-color: var(--light-txt-cl);
+
+    &:hover,
+    &:focus {
+            color: var(--blue-bg-cl);
+        }
+
+}
+
+.close-icon-btn {
+    fill: currentColor;
+}
+
+
+.btn-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-modal {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0.06em;
+    color: var(--light-txt-cl);
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    min-height: 50px;
+    background-color: var(--blue-bg-cl);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+
+/* portfolio*/
+
+.portfolio-list-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+
+.btn-portfolio {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    text-align: center;
+    border: none;
+    letter-spacing: 0.03em;
+    padding: 6px 25px;
+    background-color: var(--lignt-bg-cl);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: color var(--animation),
+    background-color var(--animation),
+    box-shadow var(--animation);
+
+    .btn-portfolio {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    text-align: center;
+    border: none;
+    letter-spacing: 0.03em;
+    padding: 6px 25px;
+    background-color: var(--lignt-bg-cl);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: color var(--animation),
+        background-color var(--animation),
+        box-shadow var(--animation);
+}
+
+
+&:hover,
+&:focus {
+    color: var(--light-txt-cl);
+    background-color: var(--accent-txt-cl);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+}
