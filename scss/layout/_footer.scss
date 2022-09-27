@@ -1,13 +1,18 @@
 .footer {
     background-color: var(--accent-bg-cl);
     padding: 60px 0;
-
-    &-contanier {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-        }
 }
+
+    .footer-contanier {
+        text-align: center;
+            
+                @media screen and (min-width: 1200px) {
+                    display: flex;
+                        justify-content: space-between;
+                        align-items: baseline;
+                }
+        }
+
 
 .footer-list-socials {
     display: flex;

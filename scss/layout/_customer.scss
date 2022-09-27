@@ -1,8 +1,9 @@
 .customers {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-
+    
 }
 
 .customer__item {
@@ -16,8 +17,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
-    height: 92px;
+    width: 210px;
+     height: 92px;
     color: var(--border-cl-cl);
     background-color: var(--main-bg-cl);
     box-sizing: border-box;
@@ -34,8 +35,21 @@
                 border: 1px solid var(--blue-bg-cl);
                 border-radius: 4px;
             }
+
+
+
+  @media screen and (min-width:1200px) {
+        width: 226px;
+        height: 92px;
+                        }
+
+ @media screen and (min-width:1200px){
+        width: 170px;
+        height: 92px;
+         }
 }
 
 .customers__icon {
+   
     fill: currentColor;
 }
