@@ -1,16 +1,4 @@
-.txt-btn {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: calc(60/44);
-    width: 696px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--light-txt-cl);
-}
+
 
 .btn {
     font-family: inherit;
@@ -36,6 +24,8 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+
+
 }
 
 .svg-btn {

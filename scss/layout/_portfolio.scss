@@ -4,9 +4,34 @@
 
 
 .portfolio {
-    padding: 94px 0;
+    padding: 60px 0;
+
+    @media screen and (min-width: 1200px){
+        padding: 94px 0;
+    }
 }
 
+
+.portfolio-list-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 40px;
+
+        @media screen and (min-width: 1200px){
+            margin-bottom: 14px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                margin-bottom: 50px;
+        }
+
+}
 .slaider-portfolio {
     position: absolute;
     width: 78px;
@@ -17,9 +42,15 @@
 }
 
 .portfolio-list {
+   
+
+    @media screen and (min-width: 768px){
     display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+     flex-wrap: wrap;
+     align-items: center;
+        gap: 30px;
+    }
+
 }
 
 .list-portfolio {

@@ -5,17 +5,77 @@
 
     .footer-contanier {
         text-align: center;
-            
-                @media screen and (min-width: 1200px) {
-                    display: flex;
-                        justify-content: space-between;
-                        align-items: baseline;
+
+        @media screen and (min-width: 1200px) {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+            }
+    }
+.address-social{
+        @media screen and (min-width: 768px){
+         display: flex;
+        margin-bottom: 60px;
+         gap: 185px;
+        }
+                @media screen and (min-width: 1200px){
+                    gap: 70px;
+                    margin-bottom: 0;
+                
                 }
+                
+
+            
+             
         }
 
+.address-footer{
+    text-align: center;
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 768px) {
+        text-align: start;
+            margin-bottom: 0;
+        }
+     
+
+    
+}
+
+
+
+.footer-socials{
+    text-align: center;
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 768px){
+     
+    }
+
+    
+
+   @media screen and (min-width: 1200px){
+    text-align: left;
+    margin-bottom: 0;
+ }
+}
+   
 
 .footer-list-socials {
     display: flex;
+    text-align: center;
+    justify-content: center;
+
+       @media screen and (min-width: 768px) {
+            display: flex;
+             align-items: center;
+            
+        }
+
+        @media screen and (min-width: 1200px) {
+        display: flex;
+    }
+      
 }
 
 .link-footer {
@@ -78,16 +138,33 @@
 
 
 .register-form-Footer {
-    display: block;
-    margin-left: 93px;
+
+     @media screen and (min-width: 1200px){
+        text-align: left;
+      
+
+     }
 }
 
 .lebel-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
-    gap: 12px;
+    
+    @media screen and (min-width: 768px) {
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+
+           
+        }
+ 
+    @media screen and (min-width: 1200px) {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+
+            margin-top: 20px;
+            gap: 12px;
+        }
+
 }
 
 .register-Footer-title {
@@ -99,7 +176,7 @@
 }
 
 .input-footer {
-    width: 358px;
+    width: 450px;
     height: 50px;
     padding-left: 16px;
 
@@ -110,5 +187,13 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    margin: 20px 0;
+
+
+        @media screen and (min-width: 1200px){
+        width: 358px;
+        height: 50px;       
+    }
 
 }
+

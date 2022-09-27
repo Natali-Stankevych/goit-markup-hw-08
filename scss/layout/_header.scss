@@ -22,9 +22,25 @@
     display: flex;
     align-items: center;
     gap: 50px;
+                
+}
 }
 
+
+.nav_contacts{
+    @media screen and (min-width:768px){
+   display: block;
+   margin: 21px 0;
+    }
+
+        @media screen and (min-width:1200px){
+            display: flex;
+                align-items: center;
+                gap: 50px;
+        }
 }
+
+
 
 .link {
     padding: 32px 0;
@@ -39,6 +55,7 @@
     &:focus {
             color: var(--accent-txt-cl);
         }
+
 }
 
 .link.slaider::after {
@@ -77,9 +94,19 @@
     &:focus {
             color: var(--accent-txt-cl);
         }
+             @media screen and (min-width:768px) {
+                padding: 0;
+               gap: 10px;
+               margin-bottom: 10px;
+             }
+
+
 }
+
+
+
+
 
 .contact-icon {
     fill: currentColor;
-
 }
