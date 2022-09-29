@@ -1,6 +1,11 @@
 .section__aside {
     display: none;
-    padding-top: 0;
+
+    @media screen and (min-width:1200px){
+        display: flex;
+            align-items: center;
+
+    }
 }
   @media screen and (min-width:1200px){
     .section__aside {

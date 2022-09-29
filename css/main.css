@@ -208,6 +208,8 @@ ul {
 img {
   display: block;
   padding: 0;
+  max-width: 100%;
+  height: auto;
 }
 
 .link {
@@ -297,6 +299,7 @@ img {
   .modal {
     width: 528px;
     height: 581px;
+    left: 50%;
   }
 }
 
@@ -779,18 +782,50 @@ img {
   text-transform: uppercase;
   padding: 118px 0;
   background-color: var(--accent-bg-cl);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 47, 58, 0.4)), to(rgba(47, 48, 58, 0))), url(../img/prise/hero-bg.png);
-  background-image: linear-gradient(180deg, rgba(53, 47, 58, 0.4) 0%, rgba(47, 48, 58, 0) 100%), url(../img/prise/hero-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-box-sizing: cover;
           box-sizing: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 47, 58, 0.4)), to(rgba(47, 48, 58, 0))), url(../img/prise/img_sm-@1x.png);
+  background-image: linear-gradient(180deg, rgba(53, 47, 58, 0.4) 0%, rgba(47, 48, 58, 0) 100%), url(../img/prise/img_sm-@1x.png);
+  /*tablet imeges */
+  /*desktop imeges*/
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 47, 58, 0.4)), to(rgba(47, 48, 58, 0))), url(../img/prise/img_sm-@2x.png);
+    background-image: linear-gradient(180deg, rgba(53, 47, 58, 0.4) 0%, rgba(47, 48, 58, 0) 100%), url(../img/prise/img_sm-@2x.png);
+  }
+}
+@media screen and (min-width: 481px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 47, 58, 0.4)), to(rgba(47, 48, 58, 0))), url(../img/prise/img_md-@1x.png);
+    background-image: linear-gradient(180deg, rgba(53, 47, 58, 0.4) 0%, rgba(47, 48, 58, 0) 100%), url(../img/prise/img_md-@1x.png);
+  }
+}
+@media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 47, 58, 0.4)), to(rgba(47, 48, 58, 0))), url(../img/prise/img_md-@2x.png);
+    background-image: linear-gradient(180deg, rgba(53, 47, 58, 0.4) 0%, rgba(47, 48, 58, 0) 100%), url(../img/prise/img_md-@2x.png);
+  }
 }
 @media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;
     padding: 200px 0;
+  }
+}
+@media screen and (min-width: 769px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 47, 58, 0.4)), to(rgba(47, 48, 58, 0))), url(../img/prise/img_md-@1x.png);
+    background-image: linear-gradient(180deg, rgba(53, 47, 58, 0.4) 0%, rgba(47, 48, 58, 0) 100%), url(../img/prise/img_md-@1x.png);
+  }
+}
+@media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 47, 58, 0.4)), to(rgba(47, 48, 58, 0))), url(../img/prise/img_md-@2x.png);
+    background-image: linear-gradient(180deg, rgba(53, 47, 58, 0.4) 0%, rgba(47, 48, 58, 0) 100%), url(../img/prise/img_md-@2x.png);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -903,7 +938,16 @@ img {
 
 .section__aside {
   display: none;
-  padding-top: 0;
+}
+@media screen and (min-width: 1200px) {
+  .section__aside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1330,7 +1374,6 @@ img {
 
 .list-portfolio {
   border: 1px solid var(--border-color);
-  width: calc((100% - 60px) / 3);
   -webkit-transition: -webkit-box-shadow var(--animation);
   transition: -webkit-box-shadow var(--animation);
   transition: box-shadow var(--animation);
@@ -1340,6 +1383,16 @@ img {
 .list-portfolio:hover, .list-portfolio:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+@media screen and (min-width: 768px) {
+  .list-portfolio {
+    width: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list-portfolio {
+    width: calc((100% - 60px) / 3);
+  }
 }
 
 .portfolio-thumd {

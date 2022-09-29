@@ -21,16 +21,17 @@
 <body class="page">
     <header class="header header-portfolio ">
         <div class="contanier header__container ">
-              <nav class="nav">
-        <a class="nav__link" href="./index.html"> <span>Web</span>Studio</a>
+             <a class="nav__link" href="./index.html"> <span>Web</span>Studio</a>
+              <!-- <nav class="nav">
+       
         <ul class="list nav__list">
                     <li class="list-item "><a class="link" href="./index.html"> Студія</a></li>
                     <li class="list-item"><a class="link slaider" href="./"><span>Портфоліо</span></a>
                     </li>
                     <li class="list-item"><a class="link" href="">Контакти</a></li>
                 </ul>
-            </nav>
-            <ul class="list nav__list nav_contacts ">
+            </nav> 
+             <ul class="list nav__list nav_contacts ">
                 <li class="list-item"><a class="link link-header  " href="mailto:info@devstudio.com">
                 <svg class="contact-icon" width="20" height="12">
                     <use href="./img/icons.svg#envelope"> </use>
@@ -42,7 +43,7 @@
                         <use href="./img/icons.svg#smartphone"></use>
                     </svg>
                     +38 096 111 11 11</a></li>
-            </ul>
+         -->
         </div>
     </header>
     <main>
@@ -59,7 +60,21 @@
                 <ul class="list portfolio-list">
                     <li class="list-item list-portfolio">
                       <div class="portfolio-thumd">
-                        <img src="./img/portfolio/img-1.jpg" alt="Веб-сайт" width="370" height="294">
+                       <img
+                       srcset="
+                              ./img/portfolio/img1_354.jpg 354w,
+                              ./img/portfolio/img1_370.jpg 370w,
+                               ./img/portfolio/img1_450.jpg 450w,
+                               ./img/portfolio/img1_708.jpg 708w,
+                               ./img/portfolio/img1_740.jpg 740w,
+                               ./img/portfolio/img1_900.jpg 900w
+                               "
+                        sizes="(min-width: 1200px) 370px, 
+                                (min-width: 768px) 354px,
+                                (min-width: 480px) 450px
+                                100vw"
+                        src="./img/portfolio/img1_354.jpg"    
+                         alt="Веб-сайт">
                         <div class="owerlay">
                             <p class="owerlay-desk">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                             вичерпні відомості про компанію чи приватну особу.
@@ -71,7 +86,21 @@
                     </li>
                     <li class="list-item list-portfolio">
                         <div class="portfolio-thumd">
-                        <img src="./img/portfolio/img.jpg" alt="Дизайн" width="370" height="294">
+                         <img
+                       srcset="
+                              ./img/portfolio/img2_354.jpg 354w,
+                              ./img/portfolio/img2_370.jpg 370w,
+                               ./img/portfolio/img2_450.jpg 450w,
+                               ./img/portfolio/img2_708.jpg 708w,
+                               ./img/portfolio/img2_740.jpg 740w,
+                               ./img/portfolio/img2_900.jpg 900w
+                               "
+                        sizes="(min-width: 1200px) 370px, 
+                                (min-width: 768px) 354px,
+                                (min-width: 480px) 450px
+                                100vw"
+                        src="./img/portfolio/img2_354.jpg"
+                         alt="Дизайн">
                         <div class="owerlay">
                             <p class="owerlay-desk">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                             вичерпні відомості про компанію чи приватну особу.
@@ -83,7 +112,21 @@
                     </li>
                     <li class="list-item list-portfolio">
                          <div class="portfolio-thumd">
-                        <img src="./img/portfolio/img-2.jpg" alt="Додаток" width="370" height="294">
+                        <img
+                       srcset="
+                              ./img/portfolio/img3_354.jpg 354w,
+                              ./img/portfolio/img3_370.jpg 370w,
+                               ./img/portfolio/img3_450.jpg 450w,
+                               ./img/portfolio/img3_708.jpg 708w,
+                               ./img/portfolio/img3_740.jpg 740w,
+                               ./img/portfolio/img3_900.jpg 900w
+                               "
+                        sizes="(min-width: 1200px) 370px, 
+                                (min-width: 768px) 354px,
+                                (min-width: 480px) 450px
+                                100vw"
+                        src="./img/portfolio/img3_354.jpg"
+                         alt="Додаток">
                         <div class="owerlay">
                             <p class="owerlay-desk">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                             вичерпні відомості про компанію чи приватну особу.
@@ -95,7 +138,21 @@
                     </li>
                     <li class="list-item list-portfolio">
                         <div class="portfolio-thumd">
-                        <img src="./img/portfolio/img-3.jpg" alt="Маркетинг" width="370" height="294">
+                         <img
+                       srcset="
+                              ./img/portfolio/img4_354.jpg 354w,
+                              ./img/portfolio/img4_370.jpg 370w,
+                               ./img/portfolio/img4_450.jpg 450w,
+                               ./img/portfolio/img4_708.jpg 708w,
+                               ./img/portfolio/img4_740.jpg 740w,
+                               ./img/portfolio/img4_900.jpg 900w
+                               "
+                        sizes="(min-width: 1200px) 370px, 
+                                (min-width: 768px) 354px,
+                                (min-width: 480px) 450px
+                                100vw"
+                        src="./img/portfolio/img3_354.jpg"
+                        alt="Маркетинг">
                         <div class="owerlay">
                             <p class="owerlay-desk">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                             вичерпні відомості про компанію чи приватну особу.
@@ -107,7 +164,21 @@
                     </li>
                     <li class="list-item list-portfolio">
                         <div class="portfolio-thumd">
-                        <img src="./img/portfolio/img-4.jpg" alt="Додаток" width="370" height="294">
+                         <img
+                       srcset="
+                              ./img/portfolio/img5_354.jpg 354w,
+                              ./img/portfolio/img5_370.jpg 370w,
+                               ./img/portfolio/img5_450.jpg 450w,
+                               ./img/portfolio/img5_708.jpg 708w,
+                               ./img/portfolio/img5_740.jpg 740w,
+                               ./img/portfolio/img5_900.jpg 900w
+                               "
+                        sizes="(min-width: 1200px) 370px, 
+                                (min-width: 768px) 354px,
+                                (min-width: 480px) 450px
+                                100vw"
+                        src="./img/portfolio/img5_354.jpg"
+                         alt="Додаток">
                         <div class="owerlay">
                             <p class="owerlay-desk">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                             вичерпні відомості про компанію чи приватну особу.
@@ -119,7 +190,21 @@
                     </li>
                     <li class="list-item list-portfolio">
                         <div class="portfolio-thumd">
-                        <img src="./img/portfolio/img-5.jpg" alt="Веб-сайт" width="370" height="294">
+                         <img
+                       srcset="
+                              ./img/portfolio/img6_354.jpg 354w,
+                              ./img/portfolio/img6_370.jpg 370w,
+                              ./img/portfolio/img6_450.jpg 450w,
+                              ./img/portfolio/img6_708.jpg 708w,
+                              ./img/portfolio/img6_740.jpg 740w,
+                              ./img/portfolio/img6_900.jpg 900w
+                               "
+                        sizes="(min-width: 1200px) 370px, 
+                                (min-width: 768px) 354px,
+                                (min-width: 480px) 450px
+                                100vw"
+                        src="./img/portfolio/img6_354.jpg"
+                         alt="Веб-сайт" width="370" height="294">
                         <div class="owerlay">
                             <p class="owerlay-desk">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                             вичерпні відомості про компанію чи приватну особу.
@@ -131,7 +216,21 @@
                     </li>
                     <li class="list-item list-portfolio">
                         <div class="portfolio-thumd">
-                        <img src="./img/portfolio/img-6.jpg" alt="Дизайн" width="370" height="294">
+                         <img
+                       srcset="
+                              ./img/portfolio/img7_354.jpg 354w,
+                              ./img/portfolio/img7_370.jpg 370w,
+                              ./img/portfolio/img7_450.jpg 450w,
+                              ./img/portfolio/img7_708.jpg 708w,
+                              ./img/portfolio/img7_740.jpg 740w,
+                              ./img/portfolio/img7_900.jpg 900w
+                               "
+                        sizes="(min-width: 1200px) 370px, 
+                                (min-width: 768px) 354px,
+                                (min-width: 480px) 450px
+                                100vw"
+                        src="./img/portfolio/img7_354.jpg"
+                         alt="Дизайн">
                         <div class="owerlay">
                             <p class="owerlay-desk">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                             вичерпні відомості про компанію чи приватну особу.
@@ -143,7 +242,21 @@
                     </li>
                     <li class="list-item list-portfolio">
                         <div class="portfolio-thumd">
-                        <img src="./img/portfolio/img-7.jpg" alt="Маркетинг" width="370" height="294">
+                         <img
+                       srcset="
+                              ./img/portfolio/img8_354.jpg 354w,
+                              ./img/portfolio/img8_370.jpg 370w,
+                              ./img/portfolio/img8_450.jpg 450w,
+                              ./img/portfolio/img8_708.jpg 708w,
+                              ./img/portfolio/img8_740.jpg 740w,
+                              ./img/portfolio/img8_900.jpg 900w
+                               "
+                        sizes="(min-width: 1200px) 370px, 
+                                (min-width: 768px) 354px,
+                                (min-width: 480px) 450px
+                                100vw"
+                        src="./img/portfolio/img8_354.jpg" 
+                        alt="Маркетинг">
                          <div class="owerlay">
                             <p class="owerlay-desk">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                             вичерпні відомості про компанію чи приватну особу.
@@ -155,7 +268,20 @@
                     </li>
                     <li class="list-item list-portfolio">
                         <div class="portfolio-thumd">
-                        <img src="./img/portfolio/img-8.jpg" alt="" width="370" height="294">
+                         <img
+                       srcset="
+                              ./img/portfolio/img9_354.jpg 354w,
+                              ./img/portfolio/img9_370.jpg 370w,
+                              ./img/portfolio/img10_450.jpg 450w,
+                              ./img/portfolio/img9_708.jpg 708w,
+                              ./img/portfolio/img9_740.jpg 740w,
+                              ./img/portfolio/img10_900.jpg 900w
+                               "
+                        sizes="(min-width: 1200px) 370px, 
+                                (min-width: 768px) 354px,
+                                (min-width: 480px) 450px
+                                100vw"
+                        src="./img/portfolio/img10_354.jpg"  alt="" width="370" height="294">
                          <div class="owerlay">
                             <p class="owerlay-desk">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                             вичерпні відомості про компанію чи приватну особу.
