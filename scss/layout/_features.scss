@@ -1,8 +1,9 @@
 
 .features-list {
+   
 
      @media screen and (min-width:768px){
-        display: flex;
+       display: flex;
         flex-wrap: wrap;
         gap: 30px;
         
@@ -11,8 +12,10 @@
 
        @media screen and (min-width:1200px){
             display: flex;
+        
             gap: 30px;
             }
+
     }
 
 
@@ -24,6 +27,11 @@
     height: 120px;
     margin-bottom: 30px;
     background-color: var(--lignt-bg-cl);
+
+    @media screen and (max-width:479px) {
+            width: 270px;
+            height: 120px;
+        }
 
     @media screen and (min-width:768px){
         width: 354px;
@@ -43,6 +51,10 @@
 
 .features-list-item {
     width: 450px;
+
+    @media screen and (max-width:479px) {
+            width: 270px;
+        }
 
        @media screen and (min-width:768px) {
         width: 354px;
