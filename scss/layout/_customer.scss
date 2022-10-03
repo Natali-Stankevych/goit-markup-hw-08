@@ -34,19 +34,22 @@
                 color: var(--blue-bg-cl);
                 border: 1px solid var(--blue-bg-cl);
                 border-radius: 4px;
-            }
+                }
 
+                  @media screen and (max-width:479px) {
+                  width: 120px;
+                  height: 70px;
+                  }
 
-
-  @media screen and (min-width:1200px) {
-        width: 226px;
-        height: 92px;
+                  @media screen and (min-width:768px) {
+                   width: 226px;
+                   height: 92px;
                         }
 
- @media screen and (min-width:1200px){
-        width: 170px;
-        height: 92px;
-         }
+                   @media screen and (min-width:1200px){
+                     width: 170px;
+                     height: 92px;
+                      }
 }
 
 .customers__icon {

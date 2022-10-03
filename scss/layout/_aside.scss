@@ -3,7 +3,7 @@
 
     @media screen and (min-width:1200px){
         display: flex;
-            align-items: center;
+         align-items: center;
 
     }
 }
@@ -31,6 +31,7 @@
 }
 
 .aside__text {
+    font-weight: 700;
     font-size: 14px;
     line-height: calc(16/14);
     padding: 27px 0;

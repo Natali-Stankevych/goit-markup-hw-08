@@ -295,6 +295,11 @@ img {
   padding: 40px;
   background-color: var(--light-txt-cl);
 }
+@media screen and (max-width: 479px) {
+  .modal {
+    width: 95%;
+  }
+}
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
@@ -813,6 +818,12 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 10px 15px;
+}
+@media screen and (min-width: 768px) {
+  .header__container {
+    padding: 0 15px;
+  }
 }
 
 .nav__link {
@@ -950,8 +961,16 @@ img {
 @media screen and (min-width: 768px) {
   .link-header {
     padding: 0;
+    font-size: 12px;
+    line-height: 1.1666666667;
     gap: 10px;
     margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .link-header {
+    font-size: 14px;
+    line-height: 1.1428571429;
   }
 }
 
@@ -960,7 +979,6 @@ img {
 }
 
 .hero {
-  max-width: 480px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -987,6 +1005,7 @@ img {
   .hero {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 47, 58, 0.4)), to(rgba(47, 48, 58, 0))), url(../img/prise/img_md-@1x.png);
     background-image: linear-gradient(180deg, rgba(53, 47, 58, 0.4) 0%, rgba(47, 48, 58, 0) 100%), url(../img/prise/img_md-@1x.png);
+    text-transform: uppercase;
   }
 }
 @media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
@@ -997,8 +1016,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .hero {
-    max-width: 768px;
-    padding: 200px 0;
+    padding: 118px 0;
   }
 }
 @media screen and (min-width: 769px) {
@@ -1015,7 +1033,6 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    max-width: 1600px;
     padding: 200px 0;
   }
 }
@@ -1032,8 +1049,14 @@ img {
   text-transform: uppercase;
   color: var(--light-txt-cl);
 }
+@media screen and (min-width: 768px) {
+  .txt-btn {
+    padding: 0 150px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .txt-btn {
+    padding: 0 252px;
     font-size: 44px;
     line-height: 1.3636363636;
   }
@@ -1075,7 +1098,7 @@ img {
 }
 @media screen and (max-width: 479px) {
   .features-icon {
-    width: 270px;
+    width: 290px;
     height: 120px;
   }
 }
@@ -1095,13 +1118,18 @@ img {
 .features-list-item:not(:last-child) {
   margin-bottom: 30px;
 }
+@media screen and (min-width: 1200px) {
+  .features-list-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
 
 .features-list-item {
   width: 450px;
 }
 @media screen and (max-width: 479px) {
   .features-list-item {
-    width: 270px;
+    width: 290px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1121,9 +1149,9 @@ img {
   text-align: center;
   margin-bottom: 10px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .features-title {
-    text-transform: uppercase;
+    text-align: start;
   }
 }
 
@@ -1170,6 +1198,7 @@ img {
 }
 
 .aside__text {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.1428571429;
   padding: 27px 0;
@@ -1276,7 +1305,13 @@ img {
   border: 1px solid var(--blue-bg-cl);
   border-radius: 4px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 479px) {
+  .customers__link {
+    width: 120px;
+    height: 70px;
+  }
+}
+@media screen and (min-width: 768px) {
   .customers__link {
     width: 226px;
     height: 92px;
@@ -1551,12 +1586,7 @@ img {
   gap: 8px;
   margin-bottom: 40px;
 }
-@media screen and (min-width: 1200px) {
-  .portfolio-list-btn {
-    margin-bottom: 14px;
-  }
-}
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .portfolio-list-btn {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1567,7 +1597,11 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    gap: 8px;
+    margin-bottom: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-list-btn {
     margin-bottom: 50px;
   }
 }
