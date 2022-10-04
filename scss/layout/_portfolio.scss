@@ -23,7 +23,7 @@
             display: flex;
                 align-items: center;
                 justify-content: center;
-            margin-bottom: 14px;
+            margin-bottom: 30px;
         }
 
         @media screen and (min-width: 1200px) {
@@ -53,6 +53,7 @@
 }
 
 .list-portfolio {
+   
     border: 1px solid var(--border-color);
     transition: box-shadow var(--animation);
         cursor: pointer;
@@ -69,6 +70,14 @@
           width: calc((100% - 60px) / 3);
 
           }
+}
+
+.list-portfolio:not(:last-child){
+margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+            margin-bottom: 0;
+        }
+  
 }
 
 .portfolio-thumd {

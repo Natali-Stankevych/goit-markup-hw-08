@@ -1027,14 +1027,14 @@ img {
 }
 @media screen and (min-width: 769px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 47, 58, 0.4)), to(rgba(47, 48, 58, 0))), url(../img/prise/img_md-@1x.png);
-    background-image: linear-gradient(180deg, rgba(53, 47, 58, 0.4) 0%, rgba(47, 48, 58, 0) 100%), url(../img/prise/img_md-@1x.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 47, 58, 0.4)), to(rgba(47, 48, 58, 0))), url(../img/prise/img_lg-@1x.png);
+    background-image: linear-gradient(180deg, rgba(53, 47, 58, 0.4) 0%, rgba(47, 48, 58, 0) 100%), url(../img/prise/img_lg-@1x.png);
   }
 }
 @media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 47, 58, 0.4)), to(rgba(47, 48, 58, 0))), url(../img/prise/img_md-@2x.png);
-    background-image: linear-gradient(180deg, rgba(53, 47, 58, 0.4) 0%, rgba(47, 48, 58, 0) 100%), url(../img/prise/img_md-@2x.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 47, 58, 0.4)), to(rgba(47, 48, 58, 0))), url(../img/prise/img_lg-@2x.png);
+    background-image: linear-gradient(180deg, rgba(53, 47, 58, 0.4) 0%, rgba(47, 48, 58, 0) 100%), url(../img/prise/img_lg-@2x.png);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1609,7 +1609,7 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 14px;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1661,6 +1661,15 @@ img {
 @media screen and (min-width: 1200px) {
   .list-portfolio {
     width: calc((100% - 60px) / 3);
+  }
+}
+
+.list-portfolio:not(:last-child) {
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .list-portfolio:not(:last-child) {
+    margin-bottom: 0;
   }
 }
 
